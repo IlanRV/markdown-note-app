@@ -2,13 +2,13 @@
   "name": "markdown-note-app",
   "version": "1.0.0",
   "type": "module",
-  "description": "A JavaScript markdown knowledge-base demo with Express page routes, JSON APIs, search, note metadata, and modular rendering services.",
+  "description": "A simple Node.js app that reads markdown files from a notes folder, converts them to HTML, and serves them locally with Express.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch index.js"
+    "dev": "node index.js --watch"
   },
-  "keywords": ["markdown", "notes", "express", "html", "knowledge-base", "frontend-demo", "search"],
+  "keywords": ["markdown", "notes", "express", "html"],
   "license": "MIT",
   "engines": {
     "node": ">=16"
